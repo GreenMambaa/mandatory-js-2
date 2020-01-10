@@ -1,0 +1,178 @@
+body {
+    background: radial-gradient(#BFFF00, #00308F);
+}
+
+/*header {
+    height: 13vh;
+    background-color: rgb(39, 209, 39);
+    border-radius: 25px;
+}*/
+
+.firstPlayer {
+    position: absolute;
+    top: 200;
+    left: 170;
+    text-align: center;
+}
+
+.player1Wins {
+    margin-left: -50;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 3em;
+    color: white;
+}
+
+.firstPlayer img {
+    margin-left: 30px;
+    width: 250px;
+    height: 45vh;
+}
+
+.secondPlayer {
+    position: absolute;
+    top: 200;
+    right: 180;
+    text-align: center;
+}
+
+.player2Wins {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+}
+
+.secondPlayer img {
+    width: 250px;
+    height: 45vh;
+}
+
+.information h1 {
+    margin-top: 3vh;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+    font-family: 'Permanent Marker', cursive;
+}
+
+.gameWindow {
+    margin: auto;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+.gameWindow table {
+    display: none;
+    border-collapse: collapse;
+    position: absolute;
+    background-color: white;
+}
+
+.gameWindow td {
+    border: 7px solid rgb(90, 214, 17);
+    height: 230px;
+    width: 230px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5em;
+    text-align: center;
+}
+
+.gameWindow table tr:first-child td {
+    border-top: none;
+}
+
+.gameWindow table tr:last-child td {
+    border-bottom: none;
+}
+
+.gameWindow table tr td:first-child {
+    border-left: none;
+}
+
+.gameWindow table tr td:last-child {
+    border-right: none;
+}
+
+.buttonPage {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 37%;
+    height: 40vh;
+    background-color: black;
+    opacity: 80%;
+}
+
+.selectMode {
+    display: none;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.gameWindow .playButton {
+    width: 80px;
+    position: absolute;
+    top: 43%;
+    left: 42%;
+    background-color: rgb(90, 214, 17);
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+    font-size: 2em;
+}
+
+.gameWindow .play2player {
+    display: none;
+    width: 80px;
+    position: absolute;
+    top: 43%;
+    left: 22%;
+    background-color: rgb(90, 214, 17);
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+    font-size: 2em;
+}
+
+.gameWindow .playAI1 {
+    display: none;
+    width: 80px;
+    position: absolute;
+    top: 43%;
+    left: 47%;
+    background-color: rgb(90, 214, 17);
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+    font-size: 2em;
+}
+
+.gameWindow .playAI2 {
+    display: none;
+    width: 80px;
+    position: absolute;
+    top: 43%;
+    left: 62%;
+    background-color: rgb(90, 214, 17);
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+    font-size: 2em;
+}
+
+.gameWindow .endGame {
+    width: 200px;
+    display: none;
+    position: absolute;
+    top: 30vh;
+    left: 42%;
+    text-align: center;
+    background-color: black;
+    border-radius: 25px;
+    color: red;
+    font-size: 2em;
+}

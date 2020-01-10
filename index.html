@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    
+    <!-- Egen CSS-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Egen JS-->
+    <script src="index.js" type="text/javascript" defer></script>
+
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    
+    <header>
+
+    </header>
+
+    <aside class="firstPlayer">
+        <p class="player1Wins">0 Wins</p>
+        <img src="Minion.png" alt="">
+    </aside>
+
+    <section class="information">
+        <h1 class="gameText">WELCOME</h1>
+    </section>
+
+    <section class="gameWindow">
+
+        <table>
+            <tr>
+                <td class="sqr" id="1"></td>
+                <td class="sqr" id="2"></td>
+                <td class="sqr" id="4"></td>
+            </tr>
+            <tr>
+                <td class="sqr" id="8"></td>
+                <td class="sqr" id="16"></td>
+                <td class="sqr" id="32"></td>
+            </tr>
+            <tr>
+                <td class="sqr" id="64"></td>
+                <td class="sqr" id="128"></td>
+                <td class="sqr" id="256"></td>
+            </tr>
+        </table>
+
+        <div class="buttonPage">
+            <div class="endGame">
+                <p class="text"></p>
+            </div>
+    
+            <p class="selectMode">Select Game Mode</p>
+            <button class="playButton" onClick="playGame()">Play</button>
+            <button class="play2player" onClick="playGameP2P()">2 Player</button>
+            <button class="playAI1" onClick="playGameEasy()">Easy</button>
+            <button class="playAI2" onClick="playGameHard()">Hard</button>
+        </div>
+    </section>
+
+    <aside class="secondPlayer">
+        <p class="player2Wins">0 Wins</p>
+        <img src="AIBoss.png" alt="">
+    </aside>
+
+    <footer>
+        
+    </footer>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
